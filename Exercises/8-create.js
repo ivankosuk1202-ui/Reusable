@@ -5,5 +5,5 @@
   Example: `createUser('Marcus Aurelius', 'Roma')`
   will return object `{ name: 'Marcus Aurelius', city: 'Roma' }` */
 const createUser = (name, city) => ({ name, city });
-
+console.log(createUser('Marcus Aurelius', 'Roma'));
 module.exports = { createUser };

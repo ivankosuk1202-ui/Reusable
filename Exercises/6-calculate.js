@@ -29,5 +29,5 @@ const calculate = () => {
   }
   return results;
 };
-
+console.log(calculate());
 module.exports = { square, cube, average, calculate };

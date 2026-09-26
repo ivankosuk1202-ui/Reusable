@@ -6,16 +6,18 @@
 - Try to change field `name`.
 - Try to assign other object to both identifiers.
 - Explain script behaviour. */
-function fn() {
-	const user = { name: "Ivan" };
-	let person = { name: "Angela" };
+function fn() { 
+    const user = { name: "Ivan" }; 
+    let person = { name: "Angela" }; 
 
-	person.name = "Angela";
-	person = { name: "Angela" };
-	user.name = "Dima";
-    //user = { name: "Petro" };
+    user.name = "Dima"; 
+    person.name = "Petro"; 
+    person = { name: "Olena" }; 
 
+    // user = { name: "Petro" };
 
-	return { user, person };
+    return { user, person }; 
 }
+
+console.log(fn());
 module.exports = { fn };

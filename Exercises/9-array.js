@@ -18,5 +18,5 @@ const findPhoneByName = (name) => {
 		}
 	}
 };
-
+console.log(findPhoneByName('Marcus Aurelius'));
 module.exports = { phonebook, findPhoneByName };
